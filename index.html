@@ -37,39 +37,46 @@
             margin-top: 150px;
         }
         
-        footer {
+        section {
             background-color: lightgoldenrodyellow;
+        }
+        
+        .footer {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
-        <a class="navbar-brand" href="#" style="margin-left: 2rem;"><img style="border-radius: 200px;" src="Rishabh.jpg" height="50" width="50"></a>
+        <a class="navbar-brand" href="https://rishabh-stack.github.io/RishabhSharma.github.io/#1" style="margin-left: 2rem;"><img style="border-radius: 200px;" src="Rishabh.jpg" height="50" width="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav" style="margin-left: 62rem;">
+        <div class=" navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav  ml-auto" style="margin-left: 62rem;">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#2">About Me</a>
+                    <a class="nav-link" href="https://rishabh-stack.github.io/RishabhSharma.github.io/#2">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#3">skills</a>
+                    <a class="nav-link" href="https://rishabh-stack.github.io/RishabhSharma.github.io/#3">skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#4">Contact Me</a>
+                    <a class="nav-link" href="https://rishabh-stack.github.io/RishabhSharma.github.io/#4">Contact Me</a>
                 </li>
 
             </ul>
         </div>
     </nav>
     <div>
-        <div class="image">
+        <div class="image" id="1">
             <img style="border-radius: 200px;" src="Rishabh.jpg" height="200" width="200">
             <h1 class="htype">
 
@@ -98,7 +105,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="card" style="width: 20rem;margin-left: 60px;">
+                <div class="card" style="width: 20rem;margin-left: 40px;">
                     <img src="https://img.icons8.com/color/144/000000/python.png" class="card-img-top" alt="...">
 
                     <div class="card-body">
@@ -128,14 +135,14 @@
         </div>
     </div>
 
-    <footer>
+    <section>
         <div class="container">
             <div class="row">
                 <p> <b>No &copy copyright issues.</b><br> Feel free to copy. If you need any help,<br> ping me !
                 </p>
                 <div class="hello" style="margin-left: 180px;">
 
-                    <p class="footTitle alignCenter" style="font-family:'Courier New', Courier, monospace">
+                    <p>
                         <img src="My Post.png" height="45" width="220">
                     </p>
                     <p class="madewithlove" style="margin-left: 1.5rem;">
@@ -147,20 +154,21 @@
                     <p class="alignCenter" id="4">
                         <b> You can find me everywhere.</b>
                     </p>
-                    <ul class="nav">
-                        <li><a href="https://github.com/rishabh-stack" target="_blank"><i class="fa fa-github"style="font-size:35px;color:black"></i></a></li>
-                        <li><a href="https://www.facebook.com/rishabh.tenguria.7/" target="_blank"><i class="fa fa-facebook-official"style="font-size:35px;color:blue;margin-left:20px"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/rishabh-sharma-40a7951b1/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:35px;color:blue ;margin-left:20px"></i></a></li>
-                        <li><a href="mailto:rishabhsharma952000@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="font-size:35px;color:red;margin-left:20px" ></i></a></li>
-                        <li><a href="https://www.instagram.com/rishabh.sharma5/" target="_blank"><i class="fa fa-instagram" style="font-size:35px;margin-left:20px" ></i></a></li>
+
+                    <ul class="nav ml-auto">
+                        <li class="nav-item"><a href="https://github.com/rishabh-stack" target="_blank"><i class="fa fa-github"style="font-size:35px;color:black"></i></a></li>
+                        <li class="nav-item"><a href="https://www.facebook.com/rishabh.tenguria.7/" target="_blank"><i class="fa fa-facebook-official"style="font-size:35px;color:blue;margin-left:20px"></i></a></li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/in/rishabh-sharma-40a7951b1/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:35px;color:blue ;margin-left:20px"></i></a></li>
+                        <li class="nav-item"><a href="mailto:rishabhsharma952000@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="font-size:35px;color:red;margin-left:20px" ></i></a></li>
+                        <li class="nav-item"><a href="https://www.instagram.com/rishabh.sharma5/" target="_blank"><i class="fa fa-instagram" style="font-size:35px;margin-left:20px" ></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <center>
-            <img src="foot.jpg">
-        </center>
-    </footer>
+
+        <img class="footer" src="foot.jpg">
+
+    </section>
 
 
     <!-- Optional JavaScript -->
