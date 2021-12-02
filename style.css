@@ -1,0 +1,79 @@
+html,
+        body {
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+            scroll-behavior: smooth !important;
+            transition: all 0.25s ease;
+            background-color: lightgoldenrodyellow;
+        }
+        
+        .image {
+            padding-top: 75px;
+            padding-bottom: 200px;
+            text-align: center;
+            color: #fff;
+            width: auto;
+            background: url("background.jpg") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .image2 {
+            padding-top: 75px;
+            padding-bottom: 200px;
+            text-align: center;
+            color: black;
+            background-size: cover;
+        }
+        
+        .htype {
+            margin-top: 150px;
+        }
+        
+        .footer {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        .card {
+            background-color: lightgoldenrodyellow;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 0.5vmax !important;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #363636 !important;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background: white !important;
+        }
+        .form-control:focus {
+            box-shadow: none;
+        }
+
+        .form-control-underlined {
+            border-width: 0;
+            border-bottom-width: 1px;
+            border-radius: 0;
+            padding-left: 0;
+        }
+        .form-control::placeholder {
+            font-size: 0.95rem;
+            color: #aaa;
+            font-style: italic;
+        }
+        .cv-button {
+            border: 2px solid white;
+            border-radius: 100px;
+            color: white;
+            font-weight: 300;
+            background-color: #00000087;
+            font-size: 1rem;
+        }

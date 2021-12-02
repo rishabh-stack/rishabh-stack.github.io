@@ -53,103 +53,48 @@ SSSssshhhhh!! The code starts below -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"> 
     <title>Rishabh</title>
     <link rel="icon" href="circle.png" style="border-radius: 200px;" type="image/png">
     <script data-ad-client="ca-pub-1877775682262660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <style>
-        html,
-        body {
-            width: 100%;
-            margin: 0px;
-            padding: 0px;
-            overflow-x: hidden;
-            scroll-behavior: smooth !important;
-            transition: all 0.25s ease;
-        }
-        
-        .image {
-            padding-top: 75px;
-            padding-bottom: 200px;
-            text-align: center;
-            color: #fff;
-            width: auto;
-            background: url("background.jpg") no-repeat center;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        
-        .image2 {
-            padding-top: 75px;
-            padding-bottom: 200px;
-            text-align: center;
-            color: black;
-            background-color: lightgoldenrodyellow;
-            background-size: cover;
-        }
-        
-        .htype {
-            margin-top: 150px;
-        }
-        
-        section {
-            background-color: lightgoldenrodyellow;
-        }
-        
-        .footer {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-        
-        .card {
-            background-color: lightgoldenrodyellow;
-        }
-        
-         ::-webkit-scrollbar {
-            width: 0.5vmax !important;
-        }
-        
-         ::-webkit-scrollbar-thumb {
-            background: #363636 !important;
-        }
-        
-         ::-webkit-scrollbar-track {
-            background: white !important;
-        }
-    </style>
 </head>
 
-<body>
+<body onload="myFunction()">
     <nav class="navbar  navbar-expand-lg navbar-dark fixed-top" style="background-color: black; ">
         <a class="navbar-brand" href="https://rishabh-stack.github.io/#1" style="margin-left: 2rem;"><img style="border-radius: 200px;" src="Rishabh.jpg" height="50" width="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
         <div class=" navbar-collapse collapse" id="navbarNav">
+
             <ul class="navbar-nav  ml-auto" style="margin-left: 2rem;">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/#">Home <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/#2">About Me</a>
+                    <a class="nav-link" href="/#Home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#3">Skills</a>
+                    <a class="nav-link" href="/#About">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#4">Contact Me</a>
+                    <a class="nav-link" href="/#Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#Contact">Contacts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/project.html">Projects</a>
                 </li>
-
+                <li class="nav-item active ml-2">
+                    <a href="rishabh-resume.pdf" download>
+                        <span class="btn px-4 mr-2 cv-button">Download CV</span>
+                    </a>
+                </li>
             </ul>
+           
+            
         </div>
     </nav>
     <div>
-        <div class="image" id="1">
+        <div class="image" id="Home">
             <img style="border-radius: 200px; margin-top:10px" src="Rishabh.jpg" height="200" width="200">
             <h1 class="htype">
 
@@ -157,60 +102,61 @@ SSSssshhhhh!! The code starts below -->
                     <span class="wrap"></span>
                 </a>
             </h1>
+            <div id="About"></div>
         </div>
     </div>
     <div class="image2">
-        <hr style="width: 400px;margin-top: -30px;">
-        <h1> <span class="badge badge-secondary" id="2">ABOUT ME</span></h1>
+        
+        <hr style="width: 400px;margin-top: -30px;" >
+        <h1> <span class="badge badge-secondary" >ABOUT ME</span></h1>
         <hr style="width: 400px;">
-        <center>
-            <h2><strong>Here I will talk about myself in the third person.</strong></h2>
-        </center>
         <p style="font-style: oblique; font-display:inherit;">
-            <center>
-                <h3 style="margin-top: 70px;"> Currently a sophomore at NIT Sikkim, Rishabh is young and passionate Python coder,<br> who has a good command in Python, HTML, CSS. Also, he is a creative graphic designer and enthusiastic techie.<br> For more information, you can contact
-                    me via mail and social media.<br><br>Why don't you have a look at my <a href="intro.pdf " style="color: orange;"> Résumé  </a>?
-                </h3>
-            </center>
+            <div class="container">
+                <h5 style="margin-top: 70px;">Hi I am Rishabh, a passionate Full Stack Developer, currently a pre-final year student at NIT Sikkim pursuing B-Tech. I have been working in the computing sphere for the past 2 years with some of the experience gained from internships.<br> As much as I appreciate my proficiency on the Backend Development with Django, I also have some skills in my arsenal namely Exploratory Data Analysis, Python , Java, Nodejs, Flask, Reactjs .<br>
+                Have a look at my <a href="#3" style="color: orange;">skills</a> or just connect with me on <a href="https://www.linkedin.com/in/rishabh-sharma-40a7951b1/" style="color: orange;">LinkedIn</a>. I am always excited to do connect with like minded people.<br><br>Why don't you have a look at my <a href="rishabh-resume.pdf " style="color: orange;"> Résumé  </a> For Futher Details?
+                </h5>
+            </div>
         </p>
-        <hr style="width: 400px; margin-top: 150px;">
-        <h1> <span class="badge badge-secondary" id="3">SKILLS</span></h1>
+        <div id="Skills"></div>
+        <hr style="width: 400px; margin-top: 100px;" >
+        <h1> <span class="badge badge-secondary" >SKILLS</span></h1>
         <hr style="width: 400px;"><br><br>
         <div class="container">
-            <div class="row mx-3">
-
-                <div class="col-md-4 col-sm-6  " style="width: 20rem;">
-                    <img src="https://img.icons8.com/color/144/000000/python.png" class="card-img-top" alt="...">
-
-                    <div class="card-body">
-                        <h3 class="card-title">Python</h3>
-                        <hr>
-                        <p class="card-text"><b>I'm a passionate python coder. and have coded many python programs which includes one AI toy like jarvis.</b></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 " style="width: 20rem;">
-                    <img src="https://img.icons8.com/color/144/000000/developer.png" class="card-img-top" alt="...">
-
-                    <div class="card-body">
-                        <h3 class="card-title">Web Devlopment</h3>
-                        <hr>
-                        <p class="card-text"><b>I have a good command in HTML And CSS too. I can create static and dynamic websites using Js, Php, Nodejs and Django..</b></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 " style="width: 20rem;">
-                    <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Java</h3>
-                        <hr>
-                        <p class="card-text"><b>I also have a good command on java language..</b></p>
-                    </div>
-                </div>
-            </div>
+            <div class="skills row"></div>
         </div>
+       
     </div>
-
-    <section>
+    <section id='Contact' style="margin-top: -40px;">
+        <hr style="width: 400px;" >
+        <h1 class="text-center"> <span class="badge badge-secondary" >CONTACT ME</span></h1>
+        <hr style="width: 400px;">
         <div class="container">
+        <form method="post" action="/" name='google-sheet'>
+            <div class="form-row">
+                <div class="form-group col-lg-4 col-md-4 col-sm-4 col-12 mb-2">
+                    <label>Name</label>
+                    <input name="Name" type="text" class="form-control" placeholder="Full name">
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-sm-4 col-12 mb-2">
+                    <label>Email</label>
+                    <input name="Email" type="email" class="form-control" placeholder="@" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+                    <label>Message</label>
+                    <textarea name="Message" rows="5" cols="37" class="form-control" ></textarea>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12 " style="margin-top:80px;">
+                    <button type="submit" class="btn btn-primary" onclick="alert('Thanks! for Messaging me. I will contact you back soon.')">Send Message</button>
+                </div>
+               
+            </div>
+
+          </form>
+        </div>
+    </section>
+    <section>
+        
+        <div class="container" style="margin-top: 80px;">
             <div class="row mx-3">
                 <div class="col-md-4 col-sm-6 ">
                     <p> <b>No &copy copyright issues.</b><br> Feel free to copy. If you need any help,<br> ping me !
@@ -228,7 +174,7 @@ SSSssshhhhh!! The code starts below -->
                 </div>
 
                 <div class="col-md-4 col-sm-6 ">
-                    <p class="alignCenter" id="4">
+                    <p class="alignCenter" id="Contact">
                         <b> You can find me everywhere.</b>
                     </p>
 
@@ -250,11 +196,25 @@ SSSssshhhhh!! The code starts below -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
 </body>
 
 <script src="index.js "></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlG7H7Spkwp0F-vjPDorMyNrXtMcMy6TdnM9w2aG-eV2FGNgJYKV4Tj-rcNXfm-Rj8/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 </html>

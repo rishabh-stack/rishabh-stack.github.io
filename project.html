@@ -65,6 +65,14 @@ SSSssshhhhh!! The code starts below -->
             scroll-behavior: smooth !important;
             transition: all 0.25s ease;
         }
+        .cv-button {
+            border: 2px solid white;
+            border-radius: 100px;
+            color: white;
+            font-weight: 300;
+            background-color: #00000087;
+            font-size: 1rem;
+        }
         
         .image {
             padding-top: 75px;
@@ -107,36 +115,42 @@ SSSssshhhhh!! The code starts below -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-        <div class=" navbar-collapse collapse" id="navbarNav">
-            <ul class="navbar-nav  ml-auto" style="margin-left: 62rem;">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/#">Home <span class="sr-only">(current)</span></a>
-                </li>
+                        <div class=" navbar-collapse collapse" id="navbarNav">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/#2">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#3">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#4">Contact Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/project.html">Projects</a>
-                </li>
-
-            </ul>
-        </div>
+                            <ul class="navbar-nav  ml-auto" style="margin-left: 2rem;">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/#Home">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/#About">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/#Skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/#Contact">Contacts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/project.html">Projects</a>
+                                </li>
+                                <li class="nav-item active ml-2">
+                                    <a href="rishabh-resume.pdf" download>
+                                        <span class="btn px-4 mr-2 cv-button">Download CV</span>
+                                    </a>
+                                </li>
+                            </ul>
+                           
+                            
+                        </div>
     </nav>
     <div>
         <div class="image" id="1">
-            <h1 class="text-center p-3"> My Projects
+            <h1 class="text-center p-3" style="color: white;"> My Projects
             </h1>
 
             <div class="row p-5">
                 <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/artificial-intelligence-2167835_1920.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Seri-costumized</h5>
@@ -146,7 +160,7 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/rupixen-com-KzUiI7ENbws-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Currency-Exchanger</h5>
@@ -156,7 +170,51 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
+                        <img src="projects/brooke-lark-W1B2LpQOBxA-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Emart</h5>
+                            <p class="card-text">An Ecommerce website made in Django backend.</p>
+                            <a href="https://e-mart-india.herokuapp.com/" class="btn btn-primary" title="Visit website"><i class="fa fa-play "style="font-size:35px;"></i></a>
+                            <a href="https://github.com/rishabh-stack/E-kart" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card mt-4" style="width: 18rem;">
+                        <img src="projects/girl-1848478_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">R-chat</h5>
+                            <p class="card-text">A real Time live chatroom made using php.</p>
+                            <a href="http://r-chat.epizy.com/" class="btn btn-primary" title="Visit website"><i class="fa fa-play "style="font-size:35px;"></i></a>
+                            <a href="https://github.com/rishabh-stack/R-chat" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-3">
+                    <div class="card mt-4" style="width: 18rem;">
+                        <img src="projects/old-newspaper-350376_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">R-news</h5>
+                            <p class="card-text">A web app to display live news fetching from an api .</p>
+                            <a href="https://github.com/rishabh-stack/R.news" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card mt-4" style="width: 18rem;">
+                        <img src="projects/snake-3979601_1920.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rishabh's Snake</h5>
+                            <p class="card-text">A simple snake game made with python 8.5 and pygame module.</p>
+                            <a href="https://github.com/rishabh-stack/snake" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/mario-1558068_1920.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Rishabh's Mario</h5>
@@ -168,50 +226,7 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="projects/girl-1848478_1920.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">R-chat</h5>
-                            <p class="card-text">A simple live chatroom made using php.</p>
-                            <a href="https://github.com/rishabh-stack/R-chat" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row p-5">
-                <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="projects/old-newspaper-350376_1920.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">R-news</h5>
-                            <p class="card-text">A web app to display live news fetching from an api .</p>
-                            <a href="https://github.com/rishabh-stack/R.news" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="projects/snake-3979601_1920.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Rishabh's Snake</h5>
-                            <p class="card-text">A simple snake game made with python 8.5 and pygame module.</p>
-                            <a href="https://github.com/rishabh-stack/snake" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="projects/brooke-lark-W1B2LpQOBxA-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Emart</h5>
-                            <p class="card-text">An Ecommerce website made in Django backend.</p>
-                            <a href="https://e-mart-india.herokuapp.com/" class="btn btn-primary" title="Visit website"><i class="fa fa-play "style="font-size:35px;"></i></a>
-                            <a href="https://github.com/rishabh-stack/E-kart" class="btn btn-primary"><i class="fa fa-github "style="font-size:35px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/ecommerce-3575280_1920.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lifestyle-store</h5>
@@ -223,7 +238,7 @@ SSSssshhhhh!! The code starts below -->
             </div>
             <div class="row p-5">
                 <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/woodtype-846088_1920.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Text-Utils</h5>
@@ -233,7 +248,7 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/girl-1848478_1920.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">User-authentication</h5>
@@ -243,7 +258,7 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/avtar.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Avtar Creator</h5>
@@ -254,7 +269,7 @@ SSSssshhhhh!! The code starts below -->
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="projects/converter.png" height="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Converter</h5>
@@ -267,7 +282,7 @@ SSSssshhhhh!! The code starts below -->
             </div>
             <div class="row p-5">
              <div class="col-md-3 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                         <img src="plane.gif" height="200px" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">More projects</h5>
