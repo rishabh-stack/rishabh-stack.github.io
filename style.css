@@ -6,7 +6,8 @@ html,
             overflow-x: hidden;
             scroll-behavior: smooth !important;
             transition: all 0.25s ease;
-            background-color: lightgoldenrodyellow;
+            font-family:Georgia, 'Times New Roman', Times, serif
+            /* background-color: lightgoldenrodyellow; */
         }
         
         .image {
@@ -39,9 +40,6 @@ html,
             width: 50%;
         }
         
-        .card {
-            background-color: lightgoldenrodyellow;
-        }
         
          ::-webkit-scrollbar {
             width: 0.5vmax !important;

@@ -197,4 +197,9 @@ var skills = [
     $(this).addClass("active");
  });
 
+ function thanks(){
+  $(".contact").css("display","none");
+  $(".contact2").css("display","block");
+
+ }
   

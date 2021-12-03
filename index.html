@@ -130,29 +130,41 @@ SSSssshhhhh!! The code starts below -->
         <hr style="width: 400px;" >
         <h1 class="text-center"> <span class="badge badge-secondary" >CONTACT ME</span></h1>
         <hr style="width: 400px;">
-        <div class="container">
-        <form method="post" action="/" name='google-sheet'>
-            <div class="form-row">
-                <div class="form-group col-lg-4 col-md-4 col-sm-4 col-12 mb-2">
-                    <label>Name</label>
-                    <input name="Name" type="text" class="form-control" placeholder="Full name">
+        <div class="jumbotron jumbotron-fluid" >
+            <div class="container p-3 contact2" style="display: none;" >
+                <h1>Thanks! for Messaging me. I will contact you back soon.</h1>
                 </div>
-                <div class="form-group col-lg-4 col-md-4 col-sm-4 col-12 mb-2">
-                    <label>Email</label>
-                    <input name="Email" type="email" class="form-control" placeholder="@" required>
+            <div class="container p-3 contact" >
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+                    <img src="contact.png" class="card-img-top img-responsive mt-4" style="width: 18rem; max-height: 140px;" >
+                    <h1 class="mt-2">Lets Connect</h1>
                 </div>
-                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
-                    <label>Message</label>
-                    <textarea name="Message" rows="5" cols="37" class="form-control" ></textarea>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                <form method="post" action="/" name='google-sheet'>
+                    <div class="form-row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12">
+                            <label>Name</label>
+                            <input name="Name" type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12">
+                            <label>Email</label>
+                            <input name="Email" type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12">
+                            <label>Message</label>
+                            <textarea name="Message" rows="4" cols="48" class="form-control" placeholder="Your Message" ></textarea>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12 " style="margin-top:80px;">
+                            <button type="submit" class="btn btn-outline-dark btn-lg btn-block"  onclick="thanks()">Send</button>
+                        </div> 
+                    </div>
                 </div>
-                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12 " style="margin-top:80px;">
-                    <button type="submit" class="btn btn-primary" onclick="alert('Thanks! for Messaging me. I will contact you back soon.')">Send Message</button>
+                  </form>
                 </div>
-               
-            </div>
-
-          </form>
-        </div>
+                </div>
+          </div>
+        
     </section>
     <section>
         
